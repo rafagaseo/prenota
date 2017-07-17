@@ -1,0 +1,10 @@
+{
+   "manifest_version": 2,
+   "name": "Dupla Cidadania Curitiba",
+   "version": "1.0",
+   "description": "Script para buscar quando ficar disponível e avisa por push",
+   "content_scripts": [{
+      "js": ["index.js"],
+      "matches": ["https://prenotaonline.esteri.it/*"]
+   }]
+}
